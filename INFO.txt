@@ -1,0 +1,6 @@
+heroku (push)
+heroku login
+git add .
+git commit -m "Adjusts"
+git push -u heroku master
+heroku run python manage.py migrate
